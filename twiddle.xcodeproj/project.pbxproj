@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1AA3CCA27D4108E001A78C3 /* twiddle WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C1AA3CC927D4108E001A78C3 /* twiddle WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C1AA3CCF27D41090001A78C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1AA3CCE27D41090001A78C3 /* Assets.xcassets */; };
+		C1AA3CD527D41090001A78C3 /* twiddle WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C1AA3CD427D41090001A78C3 /* twiddle WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C1AA3CDA27D41090001A78C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA3CD927D41090001A78C3 /* ContentView.swift */; };
+		C1AA3CDC27D41090001A78C3 /* twiddleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA3CDB27D41090001A78C3 /* twiddleApp.swift */; };
+		C1AA3CDE27D41090001A78C3 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA3CDD27D41090001A78C3 /* ComplicationController.swift */; };
+		C1AA3CE027D41091001A78C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1AA3CDF27D41091001A78C3 /* Assets.xcassets */; };
+		C1AA3CE327D41091001A78C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1AA3CE227D41091001A78C3 /* Preview Assets.xcassets */; };
+		C1AA3D1027D411EF001A78C3 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA3D0F27D411EF001A78C3 /* Note.swift */; };
+		C1AA3D1427D4130D001A78C3 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA3D1327D4130D001A78C3 /* DataSource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1AA3CCB27D4108E001A78C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1AA3CBF27D4108E001A78C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1AA3CC827D4108E001A78C3;
+			remoteInfo = "Trichoclock WatchKit App";
+		};
+		C1AA3CD627D41090001A78C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1AA3CBF27D4108E001A78C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1AA3CD327D41090001A78C3;
+			remoteInfo = "Trichoclock WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C1AA3D0027D41092001A78C3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C1AA3CD527D41090001A78C3 /* twiddle WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1AA3D0427D41092001A78C3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C1AA3CCA27D4108E001A78C3 /* twiddle WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C1AA3CC527D4108E001A78C3 /* twiddle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twiddle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1AA3CC927D4108E001A78C3 /* twiddle WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "twiddle WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1AA3CCE27D41090001A78C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1AA3CD427D41090001A78C3 /* twiddle WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "twiddle WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1AA3CD927D41090001A78C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C1AA3CDB27D41090001A78C3 /* twiddleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twiddleApp.swift; sourceTree = "<group>"; };
+		C1AA3CDD27D41090001A78C3 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		C1AA3CDF27D41091001A78C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1AA3CE227D41091001A78C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C1AA3CE427D41091001A78C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1AA3D0F27D411EF001A78C3 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		C1AA3D1327D4130D001A78C3 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1AA3CD127D41090001A78C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1AA3CBE27D4108E001A78C3 = {
+			isa = PBXGroup;
+			children = (
+				C1AA3CCD27D4108E001A78C3 /* twiddle WatchKit App */,
+				C1AA3CD827D41090001A78C3 /* twiddle WatchKit Extension */,
+				C1AA3CC627D4108E001A78C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1AA3CC627D4108E001A78C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1AA3CC527D4108E001A78C3 /* twiddle.app */,
+				C1AA3CC927D4108E001A78C3 /* twiddle WatchKit App.app */,
+				C1AA3CD427D41090001A78C3 /* twiddle WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1AA3CCD27D4108E001A78C3 /* twiddle WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C1AA3CCE27D41090001A78C3 /* Assets.xcassets */,
+			);
+			path = "twiddle WatchKit App";
+			sourceTree = "<group>";
+		};
+		C1AA3CD827D41090001A78C3 /* twiddle WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C1AA3D1227D41251001A78C3 /* HelperDataSource */,
+				C1AA3D1127D41243001A78C3 /* Model */,
+				C1AA3CD927D41090001A78C3 /* ContentView.swift */,
+				C1AA3CDB27D41090001A78C3 /* twiddleApp.swift */,
+				C1AA3CDD27D41090001A78C3 /* ComplicationController.swift */,
+				C1AA3CDF27D41091001A78C3 /* Assets.xcassets */,
+				C1AA3CE427D41091001A78C3 /* Info.plist */,
+				C1AA3CE127D41091001A78C3 /* Preview Content */,
+			);
+			path = "twiddle WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C1AA3CE127D41091001A78C3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C1AA3CE227D41091001A78C3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C1AA3D1127D41243001A78C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C1AA3D0F27D411EF001A78C3 /* Note.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C1AA3D1227D41251001A78C3 /* HelperDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				C1AA3D1327D4130D001A78C3 /* DataSource.swift */,
+			);
+			path = HelperDataSource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1AA3CC427D4108E001A78C3 /* twiddle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1AA3D0527D41092001A78C3 /* Build configuration list for PBXNativeTarget "twiddle" */;
+			buildPhases = (
+				C1AA3CC327D4108E001A78C3 /* Resources */,
+				C1AA3D0427D41092001A78C3 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1AA3CCC27D4108E001A78C3 /* PBXTargetDependency */,
+			);
+			name = twiddle;
+			productName = Trichoclock;
+			productReference = C1AA3CC527D4108E001A78C3 /* twiddle.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		C1AA3CC827D4108E001A78C3 /* twiddle WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1AA3D0127D41092001A78C3 /* Build configuration list for PBXNativeTarget "twiddle WatchKit App" */;
+			buildPhases = (
+				C1AA3CC727D4108E001A78C3 /* Resources */,
+				C1AA3D0027D41092001A78C3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1AA3CD727D41090001A78C3 /* PBXTargetDependency */,
+			);
+			name = "twiddle WatchKit App";
+			productName = "Trichoclock WatchKit App";
+			productReference = C1AA3CC927D4108E001A78C3 /* twiddle WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C1AA3CD327D41090001A78C3 /* twiddle WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1AA3CFD27D41092001A78C3 /* Build configuration list for PBXNativeTarget "twiddle WatchKit Extension" */;
+			buildPhases = (
+				C1AA3CD027D41090001A78C3 /* Sources */,
+				C1AA3CD127D41090001A78C3 /* Frameworks */,
+				C1AA3CD227D41090001A78C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "twiddle WatchKit Extension";
+			productName = "Trichoclock WatchKit Extension";
+			productReference = C1AA3CD427D41090001A78C3 /* twiddle WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1AA3CBF27D4108E001A78C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C1AA3CC427D4108E001A78C3 = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+					};
+					C1AA3CC827D4108E001A78C3 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					C1AA3CD327D41090001A78C3 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C1AA3CC227D4108E001A78C3 /* Build configuration list for PBXProject "twiddle" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1AA3CBE27D4108E001A78C3;
+			productRefGroup = C1AA3CC627D4108E001A78C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1AA3CC427D4108E001A78C3 /* twiddle */,
+				C1AA3CC827D4108E001A78C3 /* twiddle WatchKit App */,
+				C1AA3CD327D41090001A78C3 /* twiddle WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1AA3CC327D4108E001A78C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1AA3CC727D4108E001A78C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1AA3CCF27D41090001A78C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1AA3CD227D41090001A78C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1AA3CE327D41091001A78C3 /* Preview Assets.xcassets in Resources */,
+				C1AA3CE027D41091001A78C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1AA3CD027D41090001A78C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1AA3CDA27D41090001A78C3 /* ContentView.swift in Sources */,
+				C1AA3CDC27D41090001A78C3 /* twiddleApp.swift in Sources */,
+				C1AA3CDE27D41090001A78C3 /* ComplicationController.swift in Sources */,
+				C1AA3D1427D4130D001A78C3 /* DataSource.swift in Sources */,
+				C1AA3D1027D411EF001A78C3 /* Note.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1AA3CCC27D4108E001A78C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1AA3CC827D4108E001A78C3 /* twiddle WatchKit App */;
+			targetProxy = C1AA3CCB27D4108E001A78C3 /* PBXContainerItemProxy */;
+		};
+		C1AA3CD727D41090001A78C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1AA3CD327D41090001A78C3 /* twiddle WatchKit Extension */;
+			targetProxy = C1AA3CD627D41090001A78C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C1AA3CFB27D41092001A78C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1AA3CFC27D41092001A78C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1AA3CFE27D41092001A78C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"twiddle WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "twiddle WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "twiddle WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = twiddle_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.twiddle.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		C1AA3CFF27D41092001A78C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"twiddle WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "twiddle WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "twiddle WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = twiddle_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.twiddle.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		C1AA3D0227D41092001A78C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = twiddle_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "twiddle WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.twiddle.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		C1AA3D0327D41092001A78C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = twiddle_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "twiddle WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.twiddle.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		C1AA3D0627D41092001A78C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.twiddle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "twiddle WatchKit Extension/twiddle-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C1AA3D0727D41092001A78C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.twiddle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "twiddle WatchKit Extension/twiddle-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1AA3CC227D4108E001A78C3 /* Build configuration list for PBXProject "twiddle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1AA3CFB27D41092001A78C3 /* Debug */,
+				C1AA3CFC27D41092001A78C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1AA3CFD27D41092001A78C3 /* Build configuration list for PBXNativeTarget "twiddle WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1AA3CFE27D41092001A78C3 /* Debug */,
+				C1AA3CFF27D41092001A78C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1AA3D0127D41092001A78C3 /* Build configuration list for PBXNativeTarget "twiddle WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1AA3D0227D41092001A78C3 /* Debug */,
+				C1AA3D0327D41092001A78C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1AA3D0527D41092001A78C3 /* Build configuration list for PBXNativeTarget "twiddle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1AA3D0627D41092001A78C3 /* Debug */,
+				C1AA3D0727D41092001A78C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1AA3CBF27D4108E001A78C3 /* Project object */;
+}
