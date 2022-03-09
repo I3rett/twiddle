@@ -20,7 +20,7 @@ struct ContentView: View {
                 .scaledToFit()
                 .listRowPlatterColor(.clear)
                 .focusable(true)
-                .digitalCrownRotation($scroll, from: 0, through: 9, by: 1, sensitivity: .low, isContinuous: false, isHapticFeedbackEnabled: true)
+                .digitalCrownRotation($scroll, from: 0, through:16, by: 1, sensitivity: .low, isContinuous: false, isHapticFeedbackEnabled: true)
         }.navigationTitle("twiddle")
             .navigationBarTitleDisplayMode(.inline)
         

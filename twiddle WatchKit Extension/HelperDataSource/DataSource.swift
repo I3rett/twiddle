@@ -16,4 +16,12 @@ var honeymoonData: [Note] = [
     Note(imageName: "fuzz7"),
     Note(imageName: "fuzz8"),
     Note(imageName: "fuzz9"),
-    Note(imageName: "fuzz10")    ]
+    Note(imageName: "fuzz10"),
+    Note(imageName: "fuzz11"),
+    Note(imageName: "fuzz12"),
+    Note(imageName: "fuzz13"),
+    Note(imageName: "fuzz14"),
+    Note(imageName: "fuzz15"),
+    Note(imageName: "fuzz16"),
+    Note(imageName: "fuzz17"),
+    Note(imageName: "fuzz18")    ]
