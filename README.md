@@ -1,7 +1,7 @@
 **TWIDDLE AWAY**
 Twiddle is the **only** trichotillomania (hair pulling disorder) app on the App Store.
 
-**MADE FOR THE APPLE WATCH**
+**MADE FOR THE APPLE WATCH**<br>
 Twiddle is a standalone app with no barriers or log-in screen to bypass. 
 It's there for when you need it, and you can jump straight in and begin relieving urges to pull. 
 Add a complitation to your favourite watch face for instance emergency relief. 
